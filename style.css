@@ -127,12 +127,23 @@ body{
     height:800px;
     width:90vh;
   }
+  #div_content{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+  }
   
   img{
     width:300px;
+    padding-top:10px;
+    
+    
   }
-  #Img_top{
+  #img_top{
     width:500px;
   }
-  
-  
+  #img_top_2{
+    height:282px;
+  }  
