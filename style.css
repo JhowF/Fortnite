@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    display:grid;
+    grid-template-areas:"header header header"
+      "body body body"
+      "footer footer footer"
+  }
+  
+  header{
+    display:grid;
+    grid-area:header;
+    background-color:black;
+    height:auto;
+  }
+  
+  header{
+    grid-template-columns:60px 1fr 3fr 2fr;
+  }
+  
+  #main{
+    display:grid;
+    grid-column:4/4;
+    text-align:right;
+    
+  }
+  
+  #main{
+    margin:0;
+    padding:0;
+  }
+  
+  #main li{
+    display:inline-block;
+    padding-right:20px;
+    list-style-type:none;
+  }
+  
+  .main{
+    margin-top:0;
+    padding-top:0;
+    display:inline-block;
+    
+     
+    color:white;
+    text-decoration:none;
+  }
+  
+  
+  #main nav ul li a{
+    
+    transition-property:color, background-color;
+    transition-duration:0.6s;
+  }
+  #main nav ul li a:hover{
+    color:yellow;
+    background-color:green;
+    
+  }
+  
+  
+  #logo_div{
+    display:flex;
+    align-items:center;
+  }
+  
+  #ipc_lg{
+    padding-left:0;
+  }
+  
+  .logo{
+    display:grid;
+    grid-column:1/4;
+    width:50px;
+    padding-left:0;
+  }
+  
+  .logo p{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+  
+  .logo p{
+    color:white;
+    width:50px;
+    padding-left:0;
+    margin:0;
+  }
+  
+  .logo img{
+    width:30px;
+  }
+  
+  #fort{
+    width:110px;
+  }
+  
+  #logo_fort{
+    display:grid;
+    grid-column:2/4;
+    width:110px;
+  }
+  
+  
+  
+  /*Starting my content*/
+  main{
+    display:flex;
+    justify-content:center;
+    }
+  
+  #div_content{
+    background-color:black;
+    height:700px;
+    width:700px;
+  }
+  
+  
