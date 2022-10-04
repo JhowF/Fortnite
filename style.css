@@ -109,14 +109,23 @@ body{
   
   /*Starting my content*/
   main{
-    display:flex;
-    justify-content:center;
-    }
+    background-color:red;
+    display:grid;
+    grid-area:body;
+     
+  }
+  main{
+     grid-template-areas:"free occupied free"
+      "free occupied free"
+      "free occupied free"
+  }
   
   #div_content{
-    background-color:black;
+    display:grid;
+    grid-area:occupied;
+    background-color:blue;
     height:700px;
-    width:700px;
+    width:90vh;
   }
   
   
