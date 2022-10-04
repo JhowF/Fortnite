@@ -124,8 +124,15 @@ body{
     display:grid;
     grid-area:occupied;
     background-color:blue;
-    height:700px;
+    height:800px;
     width:90vh;
+  }
+  
+  img{
+    width:300px;
+  }
+  #Img_top{
+    width:500px;
   }
   
   
